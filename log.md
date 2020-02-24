@@ -1,11 +1,11 @@
 # Daily Log
 
 ## Day 1
-Status:
+Status: complete
 
-Link:
+Link: https://angry-goldwasser-28a3c4.netlify.com/
 
-Lesson Learned: 
+Lesson Learned: refreshed memory and understood bootstrap better
 
 ## Day 2
 Status:
