@@ -8,11 +8,11 @@ Link: https://angry-goldwasser-28a3c4.netlify.com/
 Lesson Learned: refreshed memory and understood bootstrap better
 
 ## Day 2
-Status:
+Status: complete
 
-Link:
+Link: https://loving-noyce-e69ced.netlify.com/
 
-Lesson Learned: 
+Lesson Learned: limits and required inputs for fields in forms
 
 ## Day 3
 Status:
