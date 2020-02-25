@@ -12,7 +12,7 @@ Status: complete
 
 Link: https://loving-noyce-e69ced.netlify.com/
 
-Lesson Learned: 
+Lesson Learned: limits and required inputs for fields in forms
 
 ## Day 3
 Status:
