@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo-image">
+        <img
+          id="header-img"
+          src="https://cdn.pixabay.com/photo/2012/04/14/14/38/skunk-34149_1280.png"
+          alt="photo"
+        />
+      </div>
+      <nav id="nav-bar">
+        <ul class="navigation">
+          <li>
+            <a class="nav-link" href="#product">Why this Product</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#video">Skunks are So Cute</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#sample">Free Stuff</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="content">
+      <h1>Animals Who Fight</h1>
+      <div id="product">
+        <p>
+          Our natural <b>Bottled Skunk Aroma</b> is the first and only natural
+          perfume that smells like real skunk spray. This rich and specific
+          aroma takes us to a oak tree field early in the morning. When the
+          sunshine is soft and the breeze is crisp. This breeze carries with it
+          the smell of skunk spray across hectares of land of oak tree forest.
+          The fusion of these scents is just magical.
+        </p>
+      </div>
+      <!-- "https://www.youtube.com/watch?v=e1unvreDZzs" -->
+      <div id="video">
+        <iframe
+          src="https://www.youtube.com/embed/uVdKo9zoC_w"
+          width="560"
+          height="315"
+        ></iframe>
+
+        <!-- <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"> -->
+      </div>
+
+      <div id="sample">
+        <p>
+          Free perfume samples are a great way to try out if you will ever want
+          to go into oak tree forests and actually meet skunks. The sample you
+          will get is an oak tree leaf. The perfume is infused on a leaf and you
+          can simply smell it, or get more use out of it. Like hanging it in
+          your house, to
+          <b
+            >feel like in the oak tree forest full of baby skunks and their
+            families</b
+          >.
+        </p>
+      </div>
+    </section>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="email" id="email"
+        >Receive free Bottled Skunk Aroma Sample</label
+      >
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="tell us your email"
+        pattern="[^ @]*@[^ @]*"
+        required
+      /><br />
+      <input type="submit" value="Free Sample" />
+    </form>
+  </body>
+</html>
