@@ -15,11 +15,11 @@ Link: https://loving-noyce-e69ced.netlify.com/
 Lesson Learned: limits and required inputs for fields in forms
 
 ## Day 3
-Status:
+Status: complete
 
-Link:
+Link: https://heuristic-allen-060b1a.netlify.com/
 
-Lesson Learned: 
+Lesson Learned: time-management on making the challenges faster
 ## Day 4
 Status:
 
