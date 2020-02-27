@@ -1,0 +1,174 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar {
+  border: 0.2rem;
+  border-color: #0e5243;
+  border-style: solid;
+  height: 100%;
+  width: 25%;
+  font-family: "Indie Flower";
+  font-size: 1.7rem;
+  position: fixed;
+  background-position-y: initial;
+  background-color: #6ea498;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    width: 100%;
+    height: 20%;
+  }
+}
+
+#navbar ul {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#navbar header {
+  font-size: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0e5243;
+  float: left;
+  display: block;
+  text-align: center;
+}
+
+.nav-sloth {
+  display: flex;
+  justify-content: center;
+}
+
+nav a:hover {
+  color: #00372b;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 0;
+  display: block;
+}
+
+#main-doc {
+  border: 0.2rem;
+  border-color: #44897a;
+  border-style: solid;
+  font-family: "Indie Flower";
+  font-size: 1.5rem;
+}
+
+.main-section {
+  margin: 2rem 2rem;
+  width: 70%;
+  float: right;
+  color: #0e5243;
+}
+
+header {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #00372b;
+}
+
+.crazy-text {
+  margin: 1rem 1rem;
+}
+
+#sloth-anatomy {
+  width: 90%;
+  height: 90%;
+}
+
+.anatomy-text {
+  width: 85%;
+}
+
+.anatomy-text-image {
+  display: flex;
+  flex-direction: row;
+}
+
+.anatomy-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.who-text {
+  margin: 1rem 0;
+}
+
+#Special_Environment li {
+  margin: 1rem 0;
+}
+
+#tree-anatomy {
+  width: 90%;
+  height: 90%;
+}
+
+.tree-text {
+  width: 85%;
+}
+
+.tree-text-image {
+  display: flex;
+  flex-direction: row;
+}
+
+.tree-image {
+  display: flex;
+  flex-direction: column;
+}
+
+#Other_cool_things li {
+  margin: 1rem 0;
+}
+
+img {
+  height: 60%;
+  width: 60%;
+}
+
+.cool-sloths {
+  display: flex;
+  flex-direction: row;
+}
+
+.cool-sloths-text {
+  margin: 0 1rem;
+}
+
+.sloth5 {
+  display: flex;
+  justify-content: center;
+}
+
+.sloth2 {
+  display: flex;
+  justify-content: center;
+}
+.sloth4 {
+  height: 50%;
+  width: 50%;
+}
+
+.sloth1 {
+  display: flex;
+  justify-content: center;
+}
+
+.sloths-code {
+  display: flex;
+  flex-direction: row;
+}
+
+.sloths-code img {
+  margin: 0 2rem;
+  height: 50%;
+  width: 50%;
+}
