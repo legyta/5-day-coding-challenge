@@ -19,13 +19,13 @@ Status: complete
 
 Link: https://heuristic-allen-060b1a.netlify.com/
 
-Lesson Learned: time-management on making the challenges faster
+Lesson Learned: tadding video to the page
 ## Day 4
-Status:
+Status: complete
 
-Link:
+Link: https://unruffled-spence-186877.netlify.com/
 
-Lesson Learned: 
+Lesson Learned: fun content makes me wanna spend more time on making page nice
 
 ## Day 5
 Status:
