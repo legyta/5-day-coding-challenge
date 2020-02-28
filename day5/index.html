@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="https://cdn.pixabay.com/photo/2018/07/20/11/32/sunflower-3550457_1280.jpg"
+  />
+
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- Bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="logo.png" class="logo" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro -->
+
+    <div class="banner" id="home">
+      <img
+        src="https://cdn.pixabay.com/photo/2016/01/13/14/41/cosmos-flowers-1138041_1280.jpg"
+        alt="flowerfield"
+      />
+
+      <div class="bannertext">
+        <h1>Ligita Montvilaite</h1>
+        <p>
+          Welcome to my Portfolio Page! I am currently in web development
+          bootcamp at Wild Code School Amsterdam, learning all about the latest
+          technologies in the industry. Please check my gallery below with my
+          constantly growing and improving work.
+        </p>
+      </div>
+    </div>
+
+    <!-- News feed section -->
+    <div><h2>My gallery</h2></div>
+
+    <div class="container-fluid col-md-6" id="gallery">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">
+                Tribute Page
+              </h3>
+            </div>
+
+            <div id="video">
+              <iframe
+                src="project1-video.mp4"
+                width="310"
+                height="315"
+                style="background-color: #a4d4ae;"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">
+                Survey Form
+              </h3>
+            </div>
+            <div id="video">
+              <iframe
+                src="project2-video.mp4"
+                width="310"
+                height="315"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">
+                Product Page
+              </h3>
+            </div>
+            <div id="video">
+              <iframe
+                src="project3-video.mp4"
+                width="310"
+                height="315"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">
+                Technical Doc
+              </h3>
+            </div>
+            <div id="video">
+              <iframe
+                src="project4-video.mp4"
+                width="310"
+                height="315"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact form -->
+
+    <div id="contact" class="sectionContact">
+      <form action="">
+        <h3 class="contactForm">Contact Me</h3>
+        Name:<br />
+        <input
+          type="text"
+          name="name"
+          value=""
+          placeholder="tell me your name"
+        />
+        <br />
+        Email:<br />
+        <input
+          type="text"
+          name="email"
+          value=""
+          placeholder="enter your email"
+        />
+        <br />
+        Message:<br />
+        <input
+          type="text"
+          name="text"
+          value=""
+          placeholder="leave your message"
+          pattern="[^ @]*@[^ @]*"
+          required
+        />
+
+        <input
+          type="submit"
+          onclick="Submit()"
+          role="button"
+          value="Send your Question"
+        />
+      </form>
+    </div>
+
+    <script>
+      function Submit() {
+        console.log("before alert");
+        window.alert("Thanks for the message!");
+      }
+    </script>
+
+    <!-- Footer section -->
+
+    <footer>
+      <p>
+        Created by:
+        <a
+          ><b>
+            Ligita Montvilaite @ Wild Code School Amsterdam
+          </b>
+        </a>
+        <img
+          src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5005/s300/favicon-orange.png"
+          alt="wildlogo"
+          class="wildlogo"
+        />
+        <br />
+        Email:
+        <a href="mailto:ligita.montvilaite@gmail.com">
+          ligita.montvilaite@gmail.com</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
