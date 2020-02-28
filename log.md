@@ -28,8 +28,8 @@ Link: https://unruffled-spence-186877.netlify.com/
 Lesson Learned: fun content makes me wanna spend more time on making page nice
 
 ## Day 5
-Status:
+Status: complete
 
-Link:
+Link: https://focused-bartik-60136b.netlify.com/
 
-Lesson Learned: 
+Lesson Learned: adding screen recordings to website, more practise of bootstrap and web responsiveness
