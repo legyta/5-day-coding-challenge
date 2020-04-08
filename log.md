@@ -19,7 +19,7 @@ Status: complete
 
 Link: https://heuristic-allen-060b1a.netlify.com/
 
-Lesson Learned: tadding video to the page
+Lesson Learned: adding video to the page
 ## Day 4
 Status: complete
 
