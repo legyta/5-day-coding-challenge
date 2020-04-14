@@ -25,6 +25,15 @@ ul {
   list-style-type: none;
   color: #32afa9;
 }
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  ul {
+    font-size: 2pt;
+    list-style-type: none;
+    color: #32afa9;
+  }
+}
+
 li {
   display: inline-block;
   color: #32afa9;
@@ -40,20 +49,26 @@ li {
   color: #32afa9;
 }
 
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .nav-link {
+    font-family: "Work Sans";
+    font-size: 8pt;
+    color: #32afa9;
+  }
+
+  .navbar header {
+    font-size: 1rem;
+  }
+  li {
+    font-size: 1rem;
+  }
+}
+
 .nav-item {
   color: white;
   text-decoration: none;
 }
 /* Logo on tablets (nav bar)*/
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .logo {
-    width: 4rem;
-    height: 4rem;
-  }
-}
-
-/* Logo on laptops (nav bar)*/
 
 @media screen and (min-width: 1025px) and (max-width: 1824px) {
   .logo {
@@ -62,11 +77,40 @@ li {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .logo {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+/* Logo on laptops (nav bar)*/
+
 /* Index page styling */
 
 img {
   width: 100%;
   height: auto;
+}
+
+@media screen and (min-width: 765px) and (max-width: 1024px) {
+  .anatomy-image #sloth-anatomy img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .banner {
