@@ -2,6 +2,7 @@
 1 HTML &amp; CSS project for 5 days 
 
 Daily Log
+
 Day 1
 Status: complete
 
